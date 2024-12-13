@@ -1,0 +1,3 @@
+state: {
+    messages: ['msg1', 'msg2']
+}

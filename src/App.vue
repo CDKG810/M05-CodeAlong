@@ -4,6 +4,9 @@
 
     </v-toolbar>
     <v-content>
+      <br>
+      <NewMessages/>
+      <br>
       <Messages/>
     </v-content>
   </v-app>
@@ -11,11 +14,12 @@
 
 <script>
 import Messages from './components/Messages'
+import NewMessage from './components/NewMessages'
 
 export default {
   name: 'App',
   components: {
-    Messages
+    Messages, NewMessage
   }
 }
 </script>
